@@ -4,7 +4,7 @@ def panlindromChecker(word : str) -> bool:
     return True if word == word[::-1] else False
 
 
-#Time complexity  and Space complexity O(1)
+#Time complexity and Space complexity O(1)
 def panlindromChecker2(word : str) -> bool:
     i = 0
     j = len(word)-1
